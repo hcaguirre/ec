@@ -1,0 +1,81 @@
+N = Número do Pacience
+Registro = Registro do Hospital
+Evento = Levantamento
+Sexo = 0: masculino, 1: feminino
+Idade = Anos
+Tempo = Tempo entre diagnóstico e coleta de PCR para CMV (Em anos)
+CD4 (1)
+CV (1) = 0 <40(não-detectavel), 1= > 40(detectavel)
+CMV = Motivo para solicitação de PCR para CMV dividido em:
+	0= Febre de etiologia a/e
+	1= alteração em hemograma
+	2= linfonodomegalia a/e
+	3=  queixa neurológica de etiologia a/e
+	4= suspeita de hepatite ou lesão em via biliar
+	5= disfagia ou odinofagia (úlcera esofágica ou gástrica) de etiologia a/e
+	6= diarréia ou úlcera retal vista ao exame físico (úlcera colônica)
+	7= quadro respiratório (suspeita de pneumonite por CMV)
+	8= turvação visual ou alteração de campo visual (retinite por CMV)
+	9= outra suspeita clínica
+	10= controle
+	11= Mais de uma
+
+Sorologia igG para CMV	0= positiva
+	1= negativa
+	2= não realizada
+	
+Título de IGg para CMV	Valor ou "-" se "não realizada" ou negativo
+
+Tratamento para CMV antes de resultado de PCR	0= sim
+	1= não
+	
+	
+Material onde realizado PCR para CMV	0= sangue
+	1= urina
+	2= LCR
+	3= escarro ou aspirado traqueal
+	4= material de biópsia (incluindo medula óssea)
+	5= humor aquoso ou vítreo
+	6= outro material
+	9= Diversos
+
+Tratamento para CMV após resultado de PCR?	0=  iniciado
+	1= não iniciado
+	2= mantido
+	3= suspenso
+	4= óbito antes do resultado de exame
+
+Doença por CMV confirmada por biópsia ou fundoscopia	0= realizada biópsia ou fundoscopia e confirmado diagnóstico de CMV
+	1= realizada biópsia ou fundoscopia não sendo confirmado o diagnóstico de CMV por este exame
+	2= provável CMV com base em critérios clínicos e resposta terapêutica,  porém não realizado biópsia ou fundoscopia
+	3= não realizado biópsia e fundoscopia (afastada hipótese de CMV com base em critérios clínicos e laboratoriais) e/ou falha terapêutica com ganciclovir
+	4= Mais de um
+	
+Efeito adverso ao ganciclovir ?	0=  toxicidade medular
+	1= outro efeito adverso
+	2= não
+	3= não se aplica
+	
+Profilaxia secundária para CMV ?	0= sim
+	1= não
+	2= não se aplica
+	
+Suspeita de CMV resistente ao ganciclovir?	0= sim
+	1= não
+	2= não se aplica
+
+Desfecho clínico	0= melhora de sinais e sintomas após tratamento para CMV
+	1= piora ou ausência de melhora de sinais e sintomas após tratamento para CMV
+	2= melhora de sinais e sintomas sem tratamento para qualquer etiologia
+	3= piora de sinais e sintomas sem tratamento para CMV com decisão posterior de tratamento
+	4= feito diagnóstico de outra etiologia para o quadro
+	5= início de tratamento para CMV com evolução à óbito
+	6= mantém queixa referida sem tratamento para CMV e sem outro diagnóstico
+	7= óbito antes de resultado de PCR
+	8= mais de um
+
+
+
+
+
+
